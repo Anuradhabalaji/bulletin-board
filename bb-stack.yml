@@ -1,0 +1,10 @@
+---
+# yaml
+Version: "3.7"
+
+services: 
+  bb-app: 
+   image: nginx 
+   ports:
+      - "8000:8080" 
+...
